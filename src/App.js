@@ -4,42 +4,44 @@ import './index.js';
 
 function App() {
   return (
-<div>
+  <div>
+  <div>
     <h1>WELCOME TO MY WEBSITE</h1>
-    <div>
-        <h2>
-            This is the place where i can showcase my profile
-        </h2>
-        
     </div>
+        
+
     <h3> 
-       I am Jananiksha
+       <b>I'm Jananiksha</b>
     </h3>
-    <p>
+    <p id="output"></p>
+    
+    <button class="button" onClick="printMessage1()">Contact No</button>
+    <button class="button" onClick="printMessage2()">Mail ID</button>
+    <button class="button" onClick="printMessage3()">LinkedIn</button>
+    <button class="button" onClick="printMessage4()">Instagram</button>
+    <h4>
         Enthusiastic AI&DS student dedicated to lifelong learning and growth in the field of AI and Data Science.
-    </p>
+    </h4>
     <div>
+    <h5>Education:</h5>
         <p>
-            <b>My Education:</b>
-            <p>ABC School </p>
-            <p> Kumaraguru College of Technology</p>
+            <p>Breeks All India Secondary School </p>
+            <p>AVB Matriculation Higher Secondary School</p>
+            <p>Kumaraguru College of Technology</p>
         </p>
 
+    <h6>Hobbies:</h6>
         <p>
-            <b>My Interests:</b>
             <p>Listening to Music</p>
             <p>Reading books</p>
             <p>Travel</p>
         </p>
 
-        <p>
-            Hii Hello
-        </p>
-    </div>
-    <div>
         
+    </div>
+        <div>
+    <h7>Skills:</h7>
         <p>
-            <b>Skills:</b>
             <p>Python</p>
             <p>FullStack</p>
             <p>Java</p>
@@ -47,28 +49,19 @@ function App() {
         </p>
 
 
-        
+        <h8>Languages Known:</h8>
         <div class="outerbox">
-            <div class="box para1">Contact</div>
-            <div class="box para2">Mail</div>
-            <div class="box para3">LinkedIn</div>
-            <div class="box para4">Instagram</div>
-            
-        </div>
-            
-        <p id="output"></p>
+            <div class="box"className="para1">Tamil</div>
+            <div class="box" className="para2">English</div>
+            <div class="box" className="para3">Hindi</div>
+            <div class="box" className="para4">French</div>
+        </div> 
+    </div>
     
-    <button class="button" onClick="printMessage1()">p1</button>
-    <button class="button" onClick="printMessage2()">p2</button>
-    <button class="button" onClick="printMessage3()">p3</button>
-    <button class="button" onClick="printMessage4()">p4</button>
     
 
-     </div>
-    
-
-</div>     
-  );
+    </div>
+    );
 }
 
 export default App;
