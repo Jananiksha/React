@@ -1,4 +1,6 @@
-
+div{
+  background-color:black;
+}
 
 .outerbox{
   min-height:50%;
@@ -57,9 +59,3 @@ p{
   color: azure;
 }
 
-body{
-  background-image: url("./bubble.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
