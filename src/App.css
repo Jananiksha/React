@@ -1,27 +1,35 @@
-div{
-  background-color:black;
+
+
+
+body{
+  background-image: url("./deer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
+
+
+
 .outerbox{
-  min-height:50%;
+  min-height:1000%;
   display: flex;
   flex-wrap: wrap;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   text-align: center;
   text-transform:uppercase;
   text-indent: 5px;
-  color:azure;
 
-
-
+  
 }
 .box{
-  width: 200px;
-  height: 50px;
-  background-color:brown;
-  border: 2px solid black;
+  width: 200%;
+  height: 200%;
+  background-color:burlywood;
+  div {border-color:black;}
   color:black;
+  
 }
 
 .container {
@@ -29,33 +37,55 @@ div{
 }
 
 .para1{
-  background-color:azure;
+  background-color:beige;
   flex:0.5
 }
 .para2{
-  background-color:azure;
+  background-color:beige;
   flex:0.5
 }
 .para3{
-  background-color:azure;
+  background-color:beige;
   flex:0.5
 
 }
 .para4{
-  background-color:azure;
+  background-color:beige;
   flex:0.5
 
 }
-h1{
-  color:azure
+
+p{
+  padding-left: 5%;
+  font-size: large;
+}
+
+h3{
+  font-size: xx-large;
+}
+h4{
+  font-size:large;
+}
+h5,h6,h7{
+  font-size: larger;
 }
 h2{
-  color:azure
+  font-size:medium;
 }
-h3{
-  color:azure
+h8{
+  font-size: x-large;
 }
-p{
-  color: azure;
+
+h1,h3,h4,h5,h6,h7,h8,p{
+  color:white;
+  font-size:x-large;
 }
+
+h1,h3{
+  font-size: xx-large;
+}
+
+
+
+
 
