@@ -1,4 +1,4 @@
-mport logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import 'index.js';
@@ -51,10 +51,10 @@ function App() {
 
         
         <div class="outerbox">
-            <div class="box"class="para1" style="color: black;">Tamil</div>
-            <div class="box" class="para2" style="color: black;">English</div>
-            <div class="box" class="para3" style="color: black;">Hindi</div>
-            <div class="box" class="para4" style="color: black;">French</div>
+            <div className="box"class="para1" style="color: black;">Tamil</div>
+            <div className="box" class="para2" style="color: black;">English</div>
+            <div className="box" class="para3" style="color: black;">Hindi</div>
+            <div className="box" class="para4" style="color: black;">French</div>
             
     </div>
             
