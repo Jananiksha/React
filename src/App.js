@@ -58,6 +58,24 @@ function App() {
         </div> 
     </div>
     
+         <h2> 
+            {" "}
+           {/*  Using the <i> React inline styles </i> to set a background image */}
+         </h2>
+         <br></br>
+         <div
+            class = "image"
+            style = {{
+               height: "350px",
+               width: "550px",
+               backgroundImage:
+               'url("deer.jpg")',
+               backgroundSize: "contain",
+               backgroundRepeat: "no-repeat",
+            }}
+         >
+            {/* This div contains a background image. */}
+         </div>
     
 
     </div>
