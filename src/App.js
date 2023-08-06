@@ -50,12 +50,7 @@ function App() {
 
 
         <h8>Languages Known:</h8>
-        <div class="outerbox">
-            <div class="box"className="para1">Tamil</div>
-            <div class="box" className="para2">English</div>
-            <div class="box" className="para3">Hindi</div>
-            <div class="box" className="para4">French</div>
-        </div> 
+        
     </div>
     <div>
         
