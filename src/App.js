@@ -13,12 +13,7 @@ function App() {
     <h3> 
        <b>I'm Jananiksha</b>
     </h3>
-    <p id="output"></p>
-    
-    <button class="button" onClick="printMessage1()">Contact No</button>
-    <button class="button" onClick="printMessage2()">Mail ID</button>
-    <button class="button" onClick="printMessage3()">LinkedIn</button>
-    <button class="button" onClick="printMessage4()">Instagram</button>
+   
     <h4>
         Enthusiastic AI&DS student dedicated to lifelong learning and growth in the field of AI and Data Science.
     </h4>
