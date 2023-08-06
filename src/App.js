@@ -13,7 +13,7 @@ function App() {
     <h3> 
        <b>I'm Jananiksha</b>
     </h3>
-   
+    
     <h4>
         Enthusiastic AI&DS student dedicated to lifelong learning and growth in the field of AI and Data Science.
     </h4>
