@@ -24,22 +24,24 @@ import App from './App';
   class StateManagement extends React.Component{
     constructor(){
       super()
-      this.state={year:"Catch me on:"}
+      this.state={Holaa:"Catch me on:"}
     }
   
-  first = () => this.setState({year:"9876543210"})
-  second = () => this.setState({year:"jananiksha664@gmail.com"})
-  three = () => this.setState({year:"jananiksha-6387563"})
-  four = () => this.setState({year:"_janani_"})
+  first = () => this.setState({Holaa:"9876543210"})
+  second = () => this.setState({Holaa:"jananiksha664@gmail.com"})
+  three = () => this.setState({Holaa:"https://jananiksha-p-666634231"})
+  four = () => this.setState({Holaa:"_janani_"})
   render(){
     return (
       <div>
-        <h1>{this.state.year}</h1>
+        <h1>{this.state.Holaa}</h1>
         <button type="button" onClick={this.first}>Contact No</button>
         <button type="button" onClick={this.second}>Mail Id</button>
         <button type="button" onClick={this.three}>LinkedIn</button>
         <button type="button" onClick={this.four}>Instagram</button>
       </div>
+
+      
     )
   }
   }
