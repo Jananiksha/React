@@ -11,25 +11,16 @@ body{
 
 
 
-.outerbox{
-  min-height:1000%;
+.outerbox {
+  min-height: 10%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
   text-align: center;
-  text-transform:uppercase;
-  text-indent: 5px;
-
-  
-}
-.box{
-  width: 200%;
-  height: 200%;
-  background-color:burlywood;
-  div {border-color:black;}
+  text-transform: uppercase;
+  text-indent: 50%;
+  justify-content: space-between;
   color:black;
-  
+  div {border-color:black;}
 }
 
 .container {
